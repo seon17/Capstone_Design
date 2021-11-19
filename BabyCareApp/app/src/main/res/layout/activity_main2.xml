@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:weightSum="7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"
+        android:text="Baby Care"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/baby"
+        android:layout_margin="60dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="요람 사용을 위해\n요람 ip를 입력해주세요."
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+   <EditText
+       android:id="@+id/edit_ip"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="ex) 000.000.000.000"
+       android:gravity="center"
+       android:layout_margin="25dp"
+       android:inputType="number|text"
+       android:paddingHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력완료"
+        android:background="@drawable/button__border"/>
+
+</LinearLayout>

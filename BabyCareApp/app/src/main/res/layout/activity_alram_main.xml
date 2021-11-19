@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmMain"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/alert"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="구토 발생!"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/dateNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YYYY/MM/DD"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/timeNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HH:MM:SS"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/stopService"
+        android:background="@drawable/button__border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:layout_margin="50dp"/>
+
+</LinearLayout>
