@@ -1,3 +1,0 @@
-include ':calendar'
-include ':app'
-rootProject.name = "BabyCareApp"
